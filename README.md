@@ -11,6 +11,7 @@ The official R scripts for analysing designer nuclease-induced DSB repair kineti
 
 * **$k$ Calc**: Solves for $k$ values based on observed data and fits curves (_individual sample_)
 * **$k$ Calc+**: Utilise cell repair inhibitors to improve $k_{dsb}$ and $k_{pr}$ estimations (_RNP Only_ & _RNP + Inhibitor_ samples)
+* **DSB Kinetics Visualiser**: Excel template that visualises and quantifies fitted kinetics curves
 * **Allele Calculator**: Plug in any $k$ values, useful for studying model dynamics
 
 ## DSB Calculator Applications
@@ -23,7 +24,7 @@ The official R scripts for analysing designer nuclease-induced DSB repair kineti
 
 <img width="600" align="center" alt="MEGA Overview" src="https://github.com/A-Chalk/DSB-Kinetics-Calculator/assets/167306438/c1fd58b2-a67c-4b29-aa92-d06c2bfdc6e4">
 
-**a.** Programmable endonucleases recognise and cleave target sequences, producing a number of intended and unintended DSB repair products. **b.** If the cell manages to repair an induced DSB, it can either generate a reaction terminating mutation (no longer recognized by the endonuclease), or it can precisely restore the wildtype sequence, which can then be reidentified and cleaved again. This ultimately drives the generation of mutation products. **c.** By sampling from an edited cell population over a timeseries and processing the DNA with MEGA safety screening, a model can be generated describing the activity of DSB generation and cellular repair.
+**a.** Programmable endonucleases recognise and cleave target sequences, producing a number of intended and unintended DSB repair products. **b.** If the cell manages to repair an induced DSB, it can either generate a reaction terminating mutation (no longer recognized by the endonuclease), or it can precisely restore the wildtype sequence, which can then be reidentified and cleaved again. This recurrent cleavage is what ultimately drives the generation of mutation products. **c.** By sampling from an edited cell population over a timeseries and processing the DNA with MEGA safety screening, a model can be generated describing the activity of DSB generation and cellular repair.
 
 ## Model Description
 
