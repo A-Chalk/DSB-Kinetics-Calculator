@@ -8,7 +8,6 @@ Cas_solver+ provides robust quantification of the underlying dynamics of gene ed
 ## Publications
 
 - [Unveiling the Cut-and-Repair Cycle of Designer Nucleases in Human Stem and T Cells via CLEAR-time dPCR (Nature Comms Pre-print v1.0)](https://www.researchsquare.com/article/rs-4577114/v1)
-- [Multipurpose Editing Genotoxicity Assessment (MEGA) ddPCR Protocol Paper (TBD)](https://www.nature.com)
 
 ## Applications
 * Measure precise DNA repair and recurrent Cas9 cleavage
@@ -20,7 +19,7 @@ Cas_solver+ provides robust quantification of the underlying dynamics of gene ed
 
 <img width="600" align="center" alt="Overview" src="https://github.com/A-Chalk/DSB-Kinetics-Calculator/assets/167306438/c1fd58b2-a67c-4b29-aa92-d06c2bfdc6e4">
 
-**a.** Programmable endonucleases like Cas9 recognise and cleave target sequences, producing a number of intended and unintended DSB repair products. **b.** If the cell manages to repair an induced DSB, it can either generate a reaction terminating mutation (no longer recognized by the endonuclease), or it can precisely restore the wildtype sequence, which can then be reidentified and cleaved again. This recurrent cleavage is what ultimately drives the generation of mutation products. **c.** By sampling from an edited cell population over a timeseries and processing the DNA with CLEAR-Time ddPCR safety screening, a model can be generated describing the activity of DSB generation and cellular repair.
+**a.** Programmable endonucleases like Cas9 recognise and cleave target sequences, producing a number of intended and unintended DSB repair products. **b.** If the cell manages to repair an induced DSB, it can either generate a reaction terminating mutation (no longer recognized by the endonuclease), or it can precisely restore the wildtype sequence, which can then be reidentified by Cas9 and cleaved again. This recurrent cleavage is what ultimately drives the generation of mutation products. **c.** By sampling from an edited cell population over a timeseries and processing the DNA with CLEAR-Time ddPCR safety screening, a model can be generated describing the activity of DSB generation and cellular repair.
 
 ## Pipeline Installation and Usage
 * To use Cas_solver+ (1.7), download the latest script version shared in this repository and Cas9_Solver_Input.xlsx (includes dummy test data). Functional on R version 4.4.1 (_but older/newer versions may also function_).
