@@ -17,7 +17,7 @@ Cas_solver+ provides robust quantification of the underlying dynamics of gene ed
 
 ## Schematic
 
-<img width="600" align="center" alt="Overview" src="https://www.nature.com/articles/s41467-025-65182-4">
+<img width="600" align="center" alt="Overview" src="https://github.com/A-Chalk/DSB-Kinetics-Calculator/assets/167306438/c1fd58b2-a67c-4b29-aa92-d06c2bfdc6e4">
 
 **a.** Programmable endonucleases like Cas9 recognise and cleave target sequences, producing a number of intended and unintended DSB repair products. **b.** If the cell manages to repair an induced DSB, it can either generate a reaction terminating mutation (no longer recognized by the endonuclease), or it can precisely restore the wildtype sequence, which can then be reidentified by Cas9 and cleaved again. This recurrent cleavage is what ultimately drives the generation of mutation products. **c.** By sampling from an edited cell population over a timeseries and processing the DNA with CLEAR-Time ddPCR safety screening, a model can be generated describing the activity of DSB generation and cellular repair.
 
